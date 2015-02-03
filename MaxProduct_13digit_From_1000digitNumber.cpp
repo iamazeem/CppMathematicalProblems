@@ -30,7 +30,7 @@ int main(void)
 		if( MAX < number )
 		{
 			MAX = number;
-			maxNumber = s.substr(i, MAX_DIGITS);
+			maxNumber = s.substr( i, MAX_DIGITS );
 		}
 	}
 
