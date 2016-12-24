@@ -23,16 +23,16 @@ class BigInt
 public:
     explicit BigInt( void )
     {
-        cout << "-------------------------------" << endl
-             << " Addition of Two Large Numbers"  << endl << endl
-             << "-------------------------------" << endl << endl;
+        cout << "-------------------------------\n"
+             << " Addition of Two Large Numbers \n"
+             << "-------------------------------\n" << endl;
     }
 
     void getInput( void )
     {
-        cout << "Enter 1st number: ";
+        cout << "Enter 1st number: " << endl;
         cin  >> _num1;
-        cout << "Enter 2nd number: ";
+        cout << "Enter 2nd number: " << endl;
         cin  >> _num2;
         cout << "------------------------------" << endl;
     }
